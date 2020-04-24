@@ -1,0 +1,421 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff0f5;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #e58a8a;
+}
+
+p {
+  font-weight: bolder;
+  margin-left: 0;
+}
+
+table,
+td,
+th {
+  border: 1px solid black;
+}
+
+table tr {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+
+th {
+  height: 50px;
+}
+
+footer {
+  background-color: #e58a8a;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #fff;
+
+}
+
+
+.mainContainer {
+  font-family: 'Noto Sans JP', sans-serif;
+  margin-bottom: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: #e58a8a;
+}
+
+.Top {
+  width: 1263px;
+  height: 100px;
+  background-color: #e58a8a;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: bolder;
+  color: #fff;
+}
+
+.topSentence {
+  margin-top: 40px;
+  margin-left: 45px;
+}
+
+.Tomoko {
+  float: right;
+  margin-right: 50px;
+  width: 100px;
+  height: 100px;
+  background-color: #e58a8a;
+}
+
+.headTitle {
+  width: 500px;
+  height: 50px;
+  color: #fff;
+}
+
+.no-bullets {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.characteristics {
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.hoverWhite {
+  background-color: #D3D3D3;
+  color: white;
+  font-weight: bolder;
+}
+
+.hoverWhite:hover {
+  background-color: #fff;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: bolder;
+  color: black;
+}
+
+.hoverPink {
+  background-color: #fff;
+  font-weight: bolder;
+  color: #e58a8a;
+}
+
+.hoverPink:hover {
+  background-color: #e58a8a;
+  color: #fff;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: bolder;
+}
+
+.survey1 {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 45px;
+  background-color: #e58a8a;
+}
+
+.question01 {
+  margin-left: 0;
+  background-color: #e58a8a;
+  color: #fff;
+}
+
+.survey3 {
+  height: 100px;
+  font-family: 'Noto Sans JP', sans-serif;
+  margin-left: 50px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: #e58a8a;
+  background-color: #fff0f5;
+}
+
+.radioButton {
+  margin-top: 40px;
+  margin-left: 0;
+}
+
+
+.コメント {
+  margin-bottom: 20px;
+
+}
+
+
+
+.myButton {
+  box-shadow: inset 0 34px 0 -24px #e67a73;
+  background-color: #e05248;
+  border-radius: 39px;
+  border: 3px solid #ffffff;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 23px;
+  padding: 23px 43px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #b23e35;
+}
+
+.myButton:hover {
+  background-color: #eb675e;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.buttomPart {
+  margin-left: 0;
+}
+
+.buttomPart3 {
+  margin-left: 50px;
+}
+
+
+@media (min-width: 1281px) {
+
+  .Top {
+    width: 100%;
+  }
+
+  .survey1 {
+    width: 100%;
+  }
+
+  .commentSection {
+    width: 100%;
+  }
+
+  .buttomPart {
+    width: 100%;
+
+  }
+
+  .question01 {
+    width: 100%;
+
+  }
+
+  .lengthBar {
+    width: 460px;
+
+  }
+
+  .コメント {
+    width: 100%;
+
+  }
+
+  .buttomPart3 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .survey1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+
+  .Top {
+    width: 100%;
+  }
+
+  .survey1 {
+    width: 100%;
+  }
+
+  .commentSection {
+    width: 100%;
+  }
+
+  .buttomPart {
+    width: 100%;
+
+  }
+
+  .question01 {
+    width: 100%;
+
+  }
+
+  .lengthBar {
+    width: 460px;
+
+  }
+
+  .コメント {
+    width: 100%;
+
+  }
+
+  .buttomPart3 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .survey1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+}
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .Top {
+    width: 100%;
+  }
+
+  .survey1 {
+    width: 100%;
+  }
+
+  .commentSection {
+    width: 100%;
+  }
+
+  .buttomPart {
+    width: 100%;
+
+  }
+
+  .question01 {
+    width: 100%;
+
+  }
+
+  .lengthBar {
+    width: 460px;
+
+  }
+
+  .コメント {
+    width: 100%;
+
+  }
+
+  .buttomPart3 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .survey1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+}
+
+@media (min-width: 601px) and (max-width: 767px) {
+
+  .Top {
+    width: 100%;
+  }
+
+  .survey1 {
+    width: 100%;
+  }
+
+  .commentSection {
+    width: 100%;
+  }
+
+  .buttomPart {
+    width: 100%;
+
+  }
+
+  .question01 {
+    width: 100%;
+
+  }
+
+  .lengthBar {
+    width: 460px;
+
+  }
+
+  .コメント {
+    width: 100%;
+
+  }
+
+  .buttomPart3 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .survey1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+
+}
+
+
+@media (max-width: 600px) {
+
+  .Top {
+    width: 100%;
+  }
+
+  .survey1 {
+    width: 100%;
+  }
+
+  .commentSection {
+    width: 100%;
+  }
+
+  .buttomPart {
+    width: 100%;
+
+  }
+
+  .question01 {
+    width: 100%;
+
+  }
+
+  .lengthBar {
+    width: 460px;
+
+  }
+
+  .コメント {
+    width: 100%;
+
+  }
+
+  .buttomPart3 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .survey1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+}
